@@ -26,7 +26,7 @@ function Form({callback}){
             event.preventDefault();
         
             try {
-                const response = await fetch('http://localhost:4000/v1/auth/login', { // Actualiza la URL aquí
+                const response = await fetch('http://horoscopo-back-nine.vercel.app/v1/auth/login', { // Actualiza la URL aquí
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json'
